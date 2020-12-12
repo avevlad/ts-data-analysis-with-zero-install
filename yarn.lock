@@ -19,6 +19,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/ramda@npm:^0.27.32":
+  version: 0.27.32
+  resolution: "@types/ramda@npm:0.27.32"
+  dependencies:
+    ts-toolbelt: ^6.15.1
+  checksum: c097bbefe31a8355d08f1b4ac6f52c7baf7f2ea7b37f7eff8345a539fcf88a037107cda37afceab728a74d5f6fe7514f4463013cdedeb2e187e127c68b9fa8db
+  languageName: node
+  linkType: hard
+
 "@types/strip-bom@npm:^3.0.0":
   version: 3.0.0
   resolution: "@types/strip-bom@npm:3.0.0"
@@ -1488,6 +1497,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"ramda@npm:^0.27.1":
+  version: 0.27.1
+  resolution: "ramda@npm:0.27.1"
+  checksum: 9aa4655dffdca66f8ba2ceabebe51996d6c75f6a2fb901a150885ace22c5950c211dd589868780b7a91c1443771702634d4370e7572d8c63c60e4b4f61aa57a9
+  languageName: node
+  linkType: hard
+
 "randombytes@npm:^2.1.0":
   version: 2.1.0
   resolution: "randombytes@npm:2.1.0"
@@ -2004,17 +2020,35 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"ts-toolbelt@npm:^6.15.1":
+  version: 6.15.5
+  resolution: "ts-toolbelt@npm:6.15.5"
+  checksum: d2f585ee3439ae7a72dd7c00630491195b2a4f34107c595d567242482b9fa911b5a9b5921fb4984506c2f7d8efce61351c7f48519438df67b6c0a8dcd40c862c
+  languageName: node
+  linkType: hard
+
 "ts@workspace:.":
   version: 0.0.0-use.local
   resolution: "ts@workspace:."
   dependencies:
     "@types/lodash": ^4.14.165
     "@types/node": ^14.14.12
+    "@types/ramda": ^0.27.32
     lodash: ^4.17.20
     mocha: ^8.2.1
+    ramda: ^0.27.1
     ts-node: ^9.1.1
     ts-node-dev: ^1.1.1
     typescript: ^4.1.3
+  dependenciesMeta:
+    "@types/lodash@4.14.165":
+      unplugged: true
+    "@types/node@14.14.12":
+      unplugged: true
+    "@types/ramda@0.27.32":
+      unplugged: true
+    typescript@4.1.3:
+      unplugged: true
   languageName: unknown
   linkType: soft
 
