@@ -1,3 +1,3 @@
 import * as _ from "lodash";
-_.random()
-console.log("Hello from main.js", _.random(1, 200));
+
+console.log("Hello from main.ts", _.random(1, 200));
