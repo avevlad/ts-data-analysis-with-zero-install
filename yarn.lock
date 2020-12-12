@@ -12,6 +12,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^14.14.12":
+  version: 14.14.12
+  resolution: "@types/node@npm:14.14.12"
+  checksum: def4a93f6ba9ea5ccbed7b403988b5e888dcde27c9d00f3f487500a26a36e13826e294fabc6d01ce563059d3567f27ea8c458edc39b502e38659c5154667602b
+  languageName: node
+  linkType: hard
+
 "@types/strip-bom@npm:^3.0.0":
   version: 3.0.0
   resolution: "@types/strip-bom@npm:3.0.0"
@@ -2002,6 +2009,7 @@ fsevents@~2.1.2:
   resolution: "ts@workspace:."
   dependencies:
     "@types/lodash": ^4.14.165
+    "@types/node": ^14.14.12
     lodash: ^4.17.20
     mocha: ^8.2.1
     ts-node: ^9.1.1
