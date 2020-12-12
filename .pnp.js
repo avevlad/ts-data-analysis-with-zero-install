@@ -37,11 +37,21 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@types/lodash", "npm:4.14.165"],
             ["lodash", "npm:4.17.20"],
             ["ts-node", "virtual:f717bbcb9121d99ad07eebce3b5c2b79b6ec85f4974f3e229899d7e67e2c0aae2acdfc90a3f07e83a51f17ed4bb6d37eee0bbe212055bccc09e15123ef097489#npm:9.1.1"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"]
           ],
           "linkType": "SOFT",
+        }]
+      ]],
+      ["@types/lodash", [
+        ["npm:4.14.165", {
+          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.165-fad4191e95-525bfc34b0.zip/node_modules/@types/lodash/",
+          "packageDependencies": [
+            ["@types/lodash", "npm:4.14.165"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["arg", [
@@ -123,6 +133,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["ts", "workspace:."],
+            ["@types/lodash", "npm:4.14.165"],
             ["lodash", "npm:4.17.20"],
             ["ts-node", "virtual:f717bbcb9121d99ad07eebce3b5c2b79b6ec85f4974f3e229899d7e67e2c0aae2acdfc90a3f07e83a51f17ed4bb6d37eee0bbe212055bccc09e15123ef097489#npm:9.1.1"],
             ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"]
