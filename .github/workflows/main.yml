@@ -31,3 +31,4 @@ jobs:
       - run: ls -la
       - run: yarn ts-node ./examples/test.ts
       - run: yarn ts-node-dev ./examples/test.ts
+      - run: cd examples && yarn ts-node ./file-system.ts
