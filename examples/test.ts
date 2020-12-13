@@ -1,9 +1,8 @@
-import getFiles from "./lib/getFiles";
+import * as fs from "fs/promises";
 
 console.log("hello world");
 
 (async () => {
-  for await (const f of getFiles(".")) {
-    console.log(f);
-  }
+  let x = await fs.readdir(".");
+  console.log(x);
 })();
