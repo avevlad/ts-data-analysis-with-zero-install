@@ -26,5 +26,8 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
+      - run: pwd
+      - run: cd examples
       - run: yarn ts-node ./test.ts
+      - run: pwd
       - run: yarn ts-node-dev ./test.ts
