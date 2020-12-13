@@ -26,6 +26,7 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
+      - run: rm yarn.lock
       - run: yarn
       - run: pwd
       - run: ls -la
